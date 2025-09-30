@@ -29,6 +29,8 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+
+
 body {
 	line-height: 1;
 }
@@ -2260,6 +2262,10 @@ input, select, textarea {
 
 /* Header */
 
+ #topBlackBar {
+  border-top: 50px solid #000;
+}
+
 	@-moz-keyframes reveal-header {
 		0% {
 			top: -5em;
@@ -2299,6 +2305,7 @@ input, select, textarea {
 			top: 0;
 		}
 	}
+
 
 	#header {
 		background: #fff;
